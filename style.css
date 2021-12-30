@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg-main {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 70px;
+  width: 100%;
+}
+.logo {
+  padding: 15px 10px;
+}
+.logo h1 {
+  color: white;
+  font-size: 20px;
+}
+.logo p {
+  color: rgb(119, 113, 113);
+  font-size: 18px;
+}
+.btn {
+  position: absolute;
+  top: 42px;
+  left: 85px;
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  text-align: right;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 15px 15px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.menu a:hover {
+  background-color: rgb(60, 61, 61);
+}
+.active {
+  background-color: #04aa6d;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: turquoise;
+  position: relative;
+}
+
+.details {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 60%;
+  height: 85%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  align-items: center;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.heading h2 {
+  color: black;
+  font-size: 25px;
+}
+.mainform-info {
+  display: inline-block;
+}
+.form-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.form-data {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.main-label {
+  font-size: 15px;
+}
+.main-input {
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 30%;
+}
+.diff {
+  width: 100%;
+  padding: 06px 10px;
+}
+.start {
+  display: flex;
+  align-items: flex-start;
+}
+.button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_two {
+  background-color: rgb(115, 198, 223);
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn_two:hover {
+  background-color: brown;
+}
